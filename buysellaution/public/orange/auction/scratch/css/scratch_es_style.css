@@ -1,0 +1,84 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+/* reset.css */
+html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead,  article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;  }
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}table {border-collapse:separate;border-spacing:0;}blockquote:before, blockquote:after, q:before, q:after {content:"";}blockquote, q {quotes:"" "";}a img {border:none; outline:none;}a{ text-decoration:none;outline:none;}a:hover{ text-decoration:none;}a span:hover{ text-decoration:none;cursor:pointer;}
+body{ font-family:arial !important; font-size:12px;}
+ul,li{ margin:0px; padding:0px; overflow:hidden; list-style:none;}input[type=button],input[type=submit] ,input[type=reset]{cursor:pointer; border:none;}input[type=text]{}
+*{outline: none !important;}body a:hover , a img:hover ,a span:hover{outline:none;}
+button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"]>input[type="button"]::-moz-focus-inner{border: none;}
+input[type=text], input[type=password]{margin:0;padding:0;border:0px;outline: none;}
+input[type=submit], input[type=button], input[type=reset]{cursor: pointer;margin: 0;padding:0;outline: none;}
+textarea{overflow:auto;}
+a{text-decoration: none;outline: none;}
+a:active{outline: none;}
+a:focus{outline: none;}
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
+
+/* scratch module */
+
+/*scratch detail 1 */
+.scratch_module,.scratch_home{float:left;width:246px;}
+.scratch_top{float:left;width:246px;height:9px;background:url(../images/scratch_module_top.png) no-repeat left top;}
+.scratch_mid{float:left;width:226px;background:url(../images/scratch_module_mid.png) repeat-y left top; padding:0 10px; text-align: center;}
+.scratch_bot{float:left;width:246px;height:9px;background:url(../images/scratch_module_bot.png) no-repeat left top;}
+.scratch_buy_details p.credit span {float: left; text-align: right; width:120px; color:#000000; font: normal 12px arial;}
+.scratch_buy_details p.credit b {float: left; text-align: left; width:94px; color:#2691C0; font: bold 12px arial; padding: 0 0 0 5px;}
+.scratch_buy_details p.credit{padding: 0 0 5px;}
+.scratch_timer_display .timer-block{width: 178px; float: left;background: url("../images/price-sep.png") no-repeat right center;padding: 10px; text-align: center;}
+.scratch_timer_display .timer ul li {float: left; margin: 0px 0px; color:#999;text-transform: capitalize;}
+.scratch_timer_display .t-timer-lft{background: url("../images/time-left.png") no-repeat left top;width: 3px ; height: 19px; float: left;}
+.scratch_timer_display .t-timer-mid{background: url("../images/time-mid.png") repeat-x left top; float: left; height: 19px;width: 17px;}
+.scratch_timer_display .t-timer-rft{background: url("../images/time-right.png") no-repeat right top;width: 3px ; height: 19px; float: left;}
+.scratch_timer_display .t-timer-mid span{font-weight: bold; color:#fff; line-height: 18px;}
+.scratch_timer_display .countdown{margin: 0 0 0 29px;}
+.scratch_timer_display p {color:#2691C0;padding: 10px 0 0;}
+.scratch_timer_display .timer p { text-transform:capitalize;color:#000000;padding:0;}
+.scratch_price_left {background:url(../images/see_price_left.png) no-repeat left top;width:4px; height: 31px; float: left;}
+.scratch_price_mid {background:url(../images/see_price_mid.png) repeat-x left top;height: 31px;float: left;}
+.scratch_price_right {background:url(../images/see_price_right.png) no-repeat left top;width:4px; height: 31px;float: left;}
+.scratch_price_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:8px 25px; display: block;}
+.scratch_price{margin: 0 0 0 39px;}
+p.scratch_cost{color:#000000; font: normal 12px arial; padding: 20px 0 10px;}
+.scratch_ok_left {background:url(../images/scratch_buy_left.png) no-repeat left top;width:3px; height: 31px; float: left;}
+.scratch_ok_mid {background:url(../images/scratch_buy_mid.png) repeat-x left top;height: 31px;float: left;}
+.scratch_ok_right {background:url(../images/scratch_buy_right.png) no-repeat left top;width:3px; height: 31px;float: left;}
+.scratch_ok_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:8px 10px; display: block;}
+.scratch_cancel_left {background:url(../images/buy_cancel_left.png) no-repeat left top;width:3px; height: 31px; float: left;}
+.scratch_cancel_mid {background:url(../images/buy_cancel_mid.png) repeat-x left top;height: 31px;float: left;}
+.scratch_cancel_right {background:url(../images/buy_cancel_right.png) no-repeat left top;width:3px; height: 31px;float: left;}
+.scratch_cancel_mid a {color:#000; text-transform: uppercase; font: bold 12px arial;padding:8px 10px; display: block;}
+.scratch_ok,.scratch_cancel  {float: left;}
+.scratch_cancel {margin:0 0 0 15px;}
+.scratch_ok{margin: 0 0 0 18px;}
+.scratch_mid .share p,.scratch_mid .share ul,.scratch_mid .share ul li{float: left; color:#000000;}
+.scratch_mid li.twit a{background: url("../images/twitter.png") no-repeat left top;width: 16px; height: 16px;}
+.scratch_mid li.face a{background: url("../images/facebook.png") no-repeat left top;width: 16px; height: 16px;}
+.scratch_mid li.flike a{background: url("../images/flike.png") no-repeat left top;width:64px; height: 18px;}
+.scratch_mid li.google_icon a{background: url("../images/google.png") no-repeat left top;width: 16px; height: 16px;}
+.scratch_mid .share ul li a {display: block; text-indent: -9999em;}
+.scratch_mid .share ul li{margin: 0px 2px;}
+.scratch_mid .share ul{margin: 2px 0 0;}
+.scratch_mid .share{padding:20px 0 0 15px;}
+
+/*scratch detail 2 */
+.scratch_info{color:#2691C0; font: bold 16px arial;}
+.scratch_time{color:#000000; font: bold 12px arial; padding:15px 0 5px 0;}
+.scratch_buy{margin:10px 0 0 45px;}
+.scratch_cancel1{margin:10px 0 25px 61px;}
+
+/*scratch home */
+.scratch_home p {color:#000; padding:0 0 3px;}
+.scratch_home b.price{color:#2691C0;}
+.scratch_reduction{background:#fff;padding:5px;border-top: 1px solid #EBEBEB; border-bottom: 1px dashed #DDDDDD;}
+.scratch_home{width:158px;}
+.scratch_home .scratch_price_mid a{ padding: 8px 15px;}
+.scratch_home .scratch_price{margin: 0 0 10px 17px;}
+/*.scratch_home{border: 1px solid black;}*/
+
+/* scratch icon */
+.scratch_icon{background: url("../images/scratch_icon.png") no-repeat scroll 0 0 transparent;display: block;float: left;height: 16px;margin: 0 3px;width: 16px;}
+.scratch_product {background: url("../images/scratch_product.png") no-repeat scroll 0 0 transparent;float: left;height: 45px;margin: 0;top: -6px;width: 46px;z-index: 1;}
+
+

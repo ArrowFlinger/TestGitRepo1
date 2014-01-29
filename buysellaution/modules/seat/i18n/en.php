@@ -1,0 +1,65 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+return array
+(
+ 	//jagan add feb 22 on words
+       
+       'add_seat_auction' => 'Seat auction add',
+       'edit_seat_auction' => 'Seat auction Edit',
+       'seat_auction_label' => 'Seat auction',
+       'seat_auction_added_successfully'=> 'Seat Auction Product Added Successfully',
+       'auction_seat' => 'Seat auction',
+       'you_can_not_bid' => 'You dont have the bid limit for this product so you can not bid. Please contact admin ',
+       'your_balance_low' => 'Your Entered amount is greaterthan the your account balance amount.',
+       'auction_seat_settings' => 'Seat Auction Settings',
+       'menu_seat_user_settings' => 'Seat Auction Settings',
+       'update_seat_usersettings_flash'=>'Seat Auction User Settings has been Updated Successfully!',
+       
+       'select_minseat_label' => 'Minimum Seat Limit Per Product',
+       'select_maxseat_label' => 'Maximum Seat Limit Per Product',
+       'select_seatcost_label' => 'Cost Per Seat <br/> Note: This amount will be spend for the auction',
+       'seat_end_date' => 'Seat Enddate',
+       'min_seat_limit' => 'Minimum Seat Limit',
+       'max_seat_limit' => 'Maximum Seat Limit',
+       'seat_cost' => 'Seat Cost',
+       
+       'auction_informations' => 'Auction Informations',
+       'seat_informations' => 'Seat Informations',
+       'errors.seat_enddate.Model_Adminproduct::datevalidate' => 'Seat Enddate Should Be Greater Than Product Start Date',
+       'buy_seats_label' => 'Buy Seats',
+       'seat_label' => 'Seats Available',
+       'nobids_yet_start_label' => 'No Bids Yet Start',
+       
+       'seat_enddate' => 'Seat Enddate',
+       'errors.min_seat_limit.Model_Adminproduct::datevalidate' => 'Minimum seat limit should lessthan the Maximum seat Limit',
+       'user_bal_label' => 'Seat Account Balance',
+       'you_already_buy' => 'You are already bought seat for this product.',   
+       'you_already_bought' => 'You are already bought seat for this product. <a href=":param">Buy Packages</a>',
+       'maximum_seat_limit' => 'The all the seat are booked. So try to book in other products..!',
+       'you_cannot_bid_seat' => 'You dont have option to bid this product. If you want to bid this product, you must buy a seat..!',
+       'seat_close_label' => 'Seats Closed',
+       'no_Seatbids_to_be_added' => 'Your Bid cannot be placed now',
+	'seat_auction_template' =>'Seat auction template',
+        'seat_auction_info' => 'Seat auction booking and bidding Notification mail template',
+        'buying_seats' => 'Buying Seats for auction',
+        'you_pay' => 'You are about to pay',
+        'for_auction_seat' => 'For Buying seat for auction title',
+        'confirm_buy' => 'Confirm Buy',
+        'cancel_bid' => 'Cancel Booking',
+        'seatbalance_empty' => 'You don\'t have enough balance to buy seat. ',
+'seat_email_verify_label' => 'Email Notification mail for bidders',
+       'seat_email_verify_content' => 'Enable / Disable mail notification for bidders',
+       'select_maxcount_labelnote' => '<br/>Note: Countdown limit in seconds',
+       'bidding_count_down_note' =>'<br/>Note: Each bid, the amount of seconds will be added in the current countdown',
+       'select_bidamount_labelnote' => '<br/> Note: Each bid, the amount of bid will be added into current price or bid',
+       
+        'seat_with_each_bid_auction' => 'With each bid auction',
+        'with_each_bid_auction_increase_by' => 'Price increases by',
+        'seat_retail_price_label' => 'Retail Price',
+        'seat_price_paid_user' => 'Price Paid',
+        'seat_save_over_label' => 'Save over',
+        'seat_from_the_normal_retail_price_label' => 'from the normal retail price!',
+        'your_seat_balance_low' => 'Your Seat balance is low',
+        'errors.max_seat_limit.Model_Seat::max_seat_validate'=>'Maximum seat limit must be greater than Minimum seat limit',
+        
+);

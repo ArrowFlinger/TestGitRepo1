@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'helveticaneuemediumCond';
+    src: url('../font/helveticaneue-mediumcond/helveticaneue-mediumcond-webfont.eot');
+    src: url('../font/helveticaneue-mediumcond/helveticaneue-mediumcond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneue-mediumcond/helveticaneue-mediumcond-webfont.woff') format('woff'),
+         url('../font/helveticaneue-mediumcond/helveticaneue-mediumcond-webfont.ttf') format('truetype'),
+         url('../font/helveticaneue-mediumcond/helveticaneue-mediumcond-webfont.svg#HelveticaNeueMediumCondRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

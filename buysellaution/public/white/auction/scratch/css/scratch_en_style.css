@@ -1,0 +1,79 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+/* reset.css */
+html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead,  article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;  }
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}table {border-collapse:separate;border-spacing:0;}blockquote:before, blockquote:after, q:before, q:after {content:"";}blockquote, q {quotes:"" "";}a img {border:none; outline:none;}a{ text-decoration:none;outline:none;}a:hover{ text-decoration:none;}a span:hover{ text-decoration:none;cursor:pointer;}
+body{ font-family:arial !important; font-size:12px;}
+ul,li{ margin:0px; padding:0px; overflow:hidden; list-style:none;}input[type=button],input[type=submit] ,input[type=reset]{cursor:pointer; border:none;}input[type=text]{}
+*{outline: none !important;}body a:hover , a img:hover ,a span:hover{outline:none;}
+button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"]>input[type="button"]::-moz-focus-inner{border: none;}
+input[type=text], input[type=password]{margin:0;padding:0;border:0px;outline: none;}
+input[type=submit], input[type=button], input[type=reset]{cursor: pointer;margin: 0;padding:0;outline: none;}
+textarea{overflow:auto;}
+a{text-decoration: none;outline: none;}
+a:active{outline: none;}
+a:focus{outline: none;}
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
+
+/* scratch module */
+
+/*scratch detail 1 */
+.scratch_module,.scratch_home{float:left;width:293px;}
+.scratch_mid{float:left;width:273px;border: 1px solid #C7C7C7;padding:10px; text-align: center; background: #F4F4F4;}
+.scratch_buy_details p.credit span {float: left; text-align: right; width:146px; color:#000000; font: normal 12px arial;}
+.scratch_buy_details p.credit b {float: left; text-align: left; width:120px; color:#ED7D2C; font: bold 12px arial; padding: 0 0 0 5px;}
+.scratch_buy_details p.credit{padding: 0 0 5px;}
+.scratch_timer_display p.timer span{font: bold 24px arial;color:#333333;width:auto; float: left;}
+.scratch_timer_display p.timer span b {display: block;color:#656565; font: normal 11px arial; text-transform: uppercase;}
+.scratch_timer_display {border-top: 1px solid #C7C7C7;border-bottom: 1px solid #C7C7C7; padding: 10px;}
+.scratch_timer_display .timer{  margin: 0 0 0 72px;}
+p.scratch_value{float: left;color:#ED7D2C; font: bold 21px arial;}
+.scratch_button{padding:0px 0px;}
+.scratch_price_left {background:url(../images/see_price_left.png) no-repeat left top;width:4px; height:26px; float: left;}
+.scratch_price_mid {background:url(../images/see_price_mid.png) repeat-x left top;height:26px;float: left;}
+.scratch_price_right {background:url(../images/see_price_right.png) no-repeat left top;width:4px; height:26px;float: left;}
+.scratch_price_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:5px 13px; display: block;}
+.scratch_price{float: right;}
+p.scratch_cost{color:#000000; font: normal 12px arial; padding: 10px 0 10px;}
+.scratch_ok_left {background:url(../images/scratch_buy_left.png) no-repeat left top;width:3px; height: 26px; float: left;}
+.scratch_ok_mid {background:url(../images/scratch_buy_mid.png) repeat-x left top;height: 26px;float: left;}
+.scratch_ok_right {background:url(../images/scratch_buy_right.png) no-repeat left top;width:3px; height: 26px;float: left;}
+.scratch_ok_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:5px 25px; display: block;}
+.scratch_ok_left1 {background:url(../images/scratch_buy_left1.png) no-repeat left top;width:3px; height: 26px; float: left;}
+.scratch_ok_mid1 {background:url(../images/scratch_buy_mid1.png) repeat-x left top;height: 26px;float: left;}
+.scratch_ok_right1 {background:url(../images/scratch_buy_right1.png) no-repeat left top;width:3px; height: 26px;float: left;}
+.scratch_ok_mid1 a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:5px 25px; display: block;}
+.scratch_cancel_left {background:url(../images/buy_cancel_left.png) no-repeat left top;width:3px; height: 31px; float: left;}
+.scratch_cancel_mid {background:url(../images/buy_cancel_mid.png) repeat-x left top;height: 31px;float: left;}
+.scratch_cancel_right {background:url(../images/buy_cancel_right.png) no-repeat left top;width:3px; height: 31px;float: left;}
+.scratch_cancel_mid a {color:#fff; text-transform: uppercase; font: bold 12px arial;padding:5px 25px; display: block;}
+.scratch_ok,.scratch_cancel  {float: left;}
+.scratch_cancel {margin:0 0 0 15px;}
+.scratch_ok{margin: 0 0 0 18px;}
+.scratch_ok_cancel{margin: 0 0 0 21px;}
+.scratch_bidder{padding:10px 0 0 0;float:left;}
+.scratch_bidder ul li {border-top: 1px solid #C7C7C7;float: left;padding:7px 0;width: 271px;}
+.scratch_bidder .hb_buy_now_left{float: left;font: normal 11px arial;color: #333333;}
+.scratch_bidder .hb_buy_now_right{float: right;padding:0 10px 0 0;font: bold 11px arial;}
+.scratch_bidder .hb_auction_header{background:url(../images/scratch_bidder.png) repeat-x left top; height:24px;}
+.scratch_bidder .hb_auction_header p { text-align: left;color:#FFFFFF; font:bold 11px arial; text-transform: uppercase; padding:4px 0 0 10px;}
+.scratch_info{font: normal 18px arial;color:#2E9DCE; padding:0 0 10px;border-bottom:1px solid #C7C7C7; margin: 0 0 10px;}
+.scratch_info span{color:#ED7D2C;}
+p.scratch_time{float: left;color:#333333; font: bold 13px arial;}
+.scratch_cancel1{float: right;}
+.scratch_button1 {border: 0;}
+
+
+#scratch_live_page  #scratch_feature_rgt{margin-right:5px!important;}
+
+#scratch_product_detail_timer{padding-left:55px!important;width:150px;}
+#scratch_product_detail_timer .days{ }
+#scratch_product_detail_timer .min{padding-left:8px;}
+#scratch_product_detail_timer .hrs{padding-left:8px;}
+#scratch_product_detail_timer .sec{padding-left:8px;}
+
+
+.white_scratch_bidder_tittle{background:url(../images/scratch_bidder.png) repeat-x left top; height:24px;}
+.white_scratch_bidder_tittle p{color:#fff;font:bold 12px/24px arial;width:100%;text-align:center;}
+.detail_last-bgnone{border:none;background:none;}

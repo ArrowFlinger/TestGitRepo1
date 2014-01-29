@@ -1,0 +1,39 @@
+
+/* RESERVE AUCTION CSS START */
+
+.reserve_white{background: url(../images/reserve_icon1.png) left top no-repeat; padding:0 0 4px 18px;}
+.reserve_white{background:url("../images/reserve_icon1.png") no-repeat; display:block; width:auto; height:16px; float:left; margin: 4px 0 0 3px;}
+.reserve_white_detail{width:46px;height:45px;background:url(../images/reserve_icon.png) no-repeat;float:left;z-index:1;margin:0px;top:-6px;}
+
+/* RESERVE AUCTION CSS END */
+.re_confrim_bid button{width:111px;}
+.re_cancel_bid button{width:150px;}
+.re_image img{width:128px;height:85px;}
+.width_bidme_live_reserve{margin:0px 0 0 25px !important;}
+.countdown.reserve_bid_countdown{width:auto;margin-left:0px;}
+
+.reserve .re_confrim_bid {background: url("../images/re_confirm_left.png") no-repeat left top;float:left;height:29px;}
+.reserve .re_confrim_bid button, .reserve .re_confrim_bid a, .reserve .re_confrim_bid input[type=submit] {cursor:pointer;background: url("../images/re_confirm_right.png") no-repeat scroll right top transparent;border: 0 none;color: #FFFFFF;display: block;float: left;font: bold 12px arial;height: 29px;margin: 0 0 0 4px;padding: 0 10px 0 4px;}
+.reserve .re_cancel_bid {margin:0 0 0 10px;background: url("../images/re_cancel_left.png") no-repeat left top;float:left;height:29px;}
+.reserve .re_cancel_bid button, .reserve .re_cancel_bid a, .reserve .re_cancel_bid input[type=submit] {cursor:pointer;background: url("../images/re_cancel_right.png") no-repeat scroll right top transparent;border: 0 none;color: #FFFFFF;display: block;float: left;font: bold 12px arial;height: 29px;margin: 0 0 0 4px;padding: 0 10px 0 4px;}
+.reserve .re_confirm {margin:10px 0 0 0;}
+.reserve .res_conent h3 {font: bold 13px arial; color:#000;}
+.reserve .re_product_container .product_bidnow_middle span{width:110px;font:bold 11px/29px arial;}
+/* popup */
+.reserve .popup_inner{ width: 390px; margin:0px auto;}
+.reserve .popup_inner2{ width: 512px; margin:0px auto;}
+.reserve .popup_content{ width: 100%; height: auto; float: left;}
+.reserve .popup_content_middle{ background: #fff;border-left: 1px solid #F1F1F1; border-right:1px solid #F1F1F1;width:388px;}
+.reserve .popup_inner2 .popup_content_middle{width:470px;padding:20px;}
+.reserve .popup{text-align: center; display: block;}
+.reserve .popupbox2 {width:670px;height:auto;display: none; float: left;position: fixed;top: 5%; left: 25%;z-index: 99999;}
+.reserve .popupbox3 {width:670px;height:auto;display: none; float: left;position: fixed;top: 5%; left: 25%;z-index: 99999;}
+.reserve #fade, .reserve #fade1 {display: none;background: #000;position: fixed; left: 0; top: 0;width: 100%; height: 100%;opacity: 0.7;z-index: 9999;filter:Alpha(Opacity=70);}
+.reserve .pop_tl {background: url("../images/re_pop_tl.png") no-repeat left top;}
+.reserve .pop_tr {background: url("../images/re_pop_tr.png") no-repeat right top;}
+.reserve .pop_tm {background: url("../images/re_pop_tm.png") repeat-x left top; height:36px; margin:0px 5px;}
+.reserve .pop_tm h2 {float:left; font: bold 14px/34px arial; color:#FFFFFF; padding: 0 0 0 10px;}
+.reserve .pop_tm a.re_close{background: url("../images/re_close.png") no-repeat left top; float: right;width:23px; height: 24px; margin: 5px 5px 0 3px; text-indent:-9999em;}
+.reserve .pop_bl {background: url("../images/re_pop_bl.png") no-repeat left top;}
+.reserve .pop_br {background: url("../images/re_pop_br.png") no-repeat right top;}
+.reserve .pop_bm {background: url("../images/re_pop_bm.png") repeat-x left top; height:5px; margin:0px 5px;}

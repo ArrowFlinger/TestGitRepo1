@@ -1,0 +1,22 @@
+# TwitterAPI OAuth driver for Auth module Kohana 3.
+Must be used with epitwitter module (http://github.com/assoulter/kohana-epitwitter)
+
+Example usage:
+
+/* in main core */
+public function before()       
+{
+	parent::before();	
+	
+	if (Auth::instance()->logged_in())				    
+	      $this->user = Auth::instance()->get_user();	
+	else
+	      $this->template->twitter_auth_link = Auth::instance()->get_auth_link();
+}
+
+/*twitter controller */
+public function action_confirm()
+{
+	Auth::instance()->force_login(/* put here $_GET['oauth_token'] from twitter oauth page */);
+	Request::instance()->redirect('/');
+}

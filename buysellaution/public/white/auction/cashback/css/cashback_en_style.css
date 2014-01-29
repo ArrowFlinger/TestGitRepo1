@@ -1,0 +1,7 @@
+/* CASHBACK AUCTION CSS START */
+
+.cash{background: url(../images/cashback_icon1.png) left top no-repeat; /*padding:0 0 4px 22px;*/}
+.cash{ background:url("../images/cashback_icon1.png") no-repeat; display:block; width:15px; height:16px; float:left;margin: 4px 0 0 3px;}
+.cashback .cashback_product{width:46px;height:45px;background:url(../images/cashback.png) no-repeat;float:left;z-index:1;margin:0px;top:-6px;}
+
+/* CASHBACK AUCTION CSS END */

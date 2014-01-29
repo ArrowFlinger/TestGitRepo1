@@ -1,0 +1,8 @@
+
+/* RESERVE AUCTION CSS START */
+
+.reserve_white{background: url(../images/reserve_icon1.png) left top no-repeat; padding:0 0 4px 15px;}
+.reserve_white{background:url("../images/reserve_icon1.png") no-repeat; display:block; width:2px; height:16px; float:left;margin:5px 0px 0px 4px;}
+.reserve_white_detail{width:46px;height:45px;background:url(../images/reserve_icon.png) no-repeat;float:left;z-index:1;margin:0px;top:-6px;}
+
+/* RESERVE AUCTION CSS END */

@@ -1,0 +1,160 @@
+/* Seat type */
+.seat .re_product_detail_top_left .product_bottom_bg {background: url("../images/re_product_bottom.png") no-repeat left top; border: none;height:45px;}
+.seat .re_product-top { background: url("../images/re_product_top.png") no-repeat left top;width:385px; height:10px;}
+.seat .re_product-middle {background: url("../images/re_product_middle.png") repeat-y left top;width:385px;}
+.seat .reserve_product {background: url("../images/reserve_icon.png") no-repeat scroll 0 0 transparent;float: left;height: 45px;margin: 0;top: -6px;width: 46px;z-index: 1;}
+.seat .re_product_container .price-middle {background: url("../images/re_price_middle.png") repeat-x left top;}
+.seat .re_product_container .product_detail_top_right {margin:0 0 0 21px;}
+.seat .re_product_container .currentprice {font-size:12px;font-weight:bold;}
+.seat .re_product_container .price-middle table p {font-weight:bold;}
+.seat .re_product_container .product_detail_top_right td p{font:normal 11px arial;color:#000;}
+.seat .re_product_container .countdown {background: none;}
+.seat .re_input{background: url("../images/reserve_input_bg.png") no-repeat left top;float:left;width:175px; height:55px;}
+.seat .re_input input[type="text"]{border:none; width:147px; height:20px; padding: 3px 0px;float:left;}
+.seat .re_dollar {float: left;margin:8px 0 0 0px;}
+.seat .re_product_container .product_detail_top_right .re_input p {text-align: left;font: 11px arial;padding: 2px 0 0 2px;}
+.seat .re_product_container .hb_place_bid{float: left;margin: 5px 0 0 23px;}
+.seat .re_product_container .bidme_link_left1 {background: url("../images/re_buy_now_corner1.png") no-repeat scroll 0 0 transparent;height: 31px;width: 5px;}
+.seat .re_product_container .product_bidnow_link .bidme_link_middle1 {background: url("../images/re_buy_now_middle1.png") repeat-x scroll 0 0 transparent;height: 31px;padding: 0 5px;width: 125px;}
+.seat .re_product_container .bidme_link_right1{background-position:-6px 0;}
+.seat .bidme_link:hover .bidme_link_left1{background-position: 0;}
+.seat .bidme_link:hover .bidme_link_right1{background-position:-6px 0;}
+.seat .re_product_container .product_bidnow_link .product_bidnow_middle a{font:bold 12px/31px arial;}
+.seat .re_product_container .product_bidnow_link .product_bidnow_middle a{width:110px;}
+.seat .increment { background: url("../images/re_increment.png") repeat-x left top; width: 246px; height: 36px; display:block; text-align: center;font: bold 12px/31px arial; color:#fff; text-transform: uppercase;margin:10px 0;}
+.seat .increment_block a { background: url("../images/re_increment.png") repeat-x left top;}
+.seat .reserve_how a {background: url("../images/reserve_how.png") no-repeat left top;padding:0 0 0 36px; text-align: left; padding:0 0 0 36px;color:#000; text-decoration: underline;}
+.seat .reserve_how{margin:0 0 0 56px;}
+.seat .increment_list {width:390px;}
+.seat .increment_list p.re_price {padding:7px 0 7px 15px;float: left; width:199px; font-weight: normal; color:#000;border-top:1px solid #ECECEC; border-right: 1px solid #ECECEC;}
+.seat .increment_list p.re_bid {padding:7px 0 7px 15px;float: left; width:150px; font-weight: normal; color:#000;border-top:1px solid #ECECEC;}
+.seat .re_image {border: 1px solid #D1D1D1;float: left;height: 85px;padding: 10px;text-align: center;width: 128px;}
+.seat .res_conent {float:left; width:300px; margin: 0 0 0 15px;}
+.seat .content_info p, .seat .content_info span, .seat .content_info p span {float: left; font-weight:bold;}
+.seat .content_info .res_label {text-align: right; width:75px; padding:0 10px 0 0; font-weight: normal;}
+.seat .content_info span {font-weight: normal; padding:0 10px 0 0;}
+.seat .content_info {padding:5px 0;}
+.seat .re_confrim_bid {background: url("../images/re_confirm_left.png") no-repeat left top;float:left;height:29px;}
+.seat .re_confrim_bid button, .seat .re_confrim_bid a, .seat .re_confrim_bid input[type=submit] {cursor:pointer;background: url("../images/re_confirm_right.png") no-repeat scroll right top transparent;border: 0 none;color: #FFFFFF;display: block;float: left;font: bold 12px arial;height: 29px;margin: 0 0 0 4px;padding: 0 10px 0 4px;}
+.seat .re_cancel_bid {margin:0 0 0 10px;background: url("../images/re_cancel_left.png") no-repeat left top;float:left;height:29px;}
+.seat .re_cancel_bid button, .seat .re_cancel_bid a, .seat .re_cancel_bid input[type=submit] {cursor:pointer;background: url("../images/re_cancel_right.png") no-repeat scroll right top transparent;border: 0 none;color: #FFFFFF;display: block;float: left;font: bold 12px arial;height: 29px;margin: 0 0 0 4px;padding: 0 10px 0 4px;}
+.seat .re_confirm {margin:10px 0 0 0;}
+.seat .res_conent h3 {font: bold 13px arial; color:#000;}
+.seat .re_product_container .product_bidnow_middle span{width:110px;font:bold 11px/29px arial;}
+.seat .buyseat_details {font-size:11px; padding:0 0 0 5px;}
+/* popup */
+.seat .popup_inner{ width: 390px; margin:0px auto;}
+.seat .popup_inner2{ width: 512px; margin:0px auto;}
+.seat .popup_content{ width: 100%; height: auto; float: left;}
+.seat .popup_content_middle{ background: #fff;border-left: 1px solid #F1F1F1; border-right:1px solid #F1F1F1;width:388px;}
+.seat .popup_inner2 .popup_content_middle{width:470px;padding:20px;}
+.seat .popup{text-align: center; display: block;}
+.seat .popupbox2 {width:670px;height:auto;display: none; float: left;position: fixed;top: 5%; left: 25%;z-index: 99999;}
+.seat .popupbox3 {width:670px;height:auto;display: none; float: left;position: fixed;top: 5%; left: 25%;z-index: 99999;}
+.seat #fade, .seat #fade1 {display: none;background: #000;position: fixed; left: 0; top: 0;width: 100%; height: 100%;opacity: 0.7;z-index: 9999;filter:Alpha(Opacity=70);}
+.seat .pop_tl {background: url("../images/re_pop_tl.png") no-repeat left top;}
+.seat .pop_tr {background: url("../images/re_pop_tr.png") no-repeat right top;}
+.seat .pop_tm {background: url("../images/re_pop_tm.png") repeat-x left top; height:36px; margin:0px 5px;}
+.seat .pop_tm h2 {float:left; font: bold 14px/34px arial; color:#FFFFFF; padding: 0 0 0 10px;}
+.seat .pop_tm a.re_close{background: url("../images/re_close.png") no-repeat left top; float: right;width:23px; height: 24px; margin: 5px 5px 0 3px; text-indent:-9999em;}
+.seat .pop_bl {background: url("../images/re_pop_bl.png") no-repeat left top;}
+.seat .pop_br {background: url("../images/re_pop_br.png") no-repeat right top;}
+.seat .pop_bm {background: url("../images/re_pop_bm.png") repeat-x left top; height:5px; margin:0px 5px;}
+/* popup */
+.seat .reserve_bid_icon{ background:url("../images/reserve_icon1.png") no-repeat; display:block; width:17px; height:17px; float:left;margin:0px 3px;}
+/* SUBBU STYLE 4-03-2013 */
+.seat .re_confrim_bid button{width:111px;}
+.seat .re_cancel_bid button{width:150px;}
+.seat .re_image img{width:128px;height:85px;}
+.seat .width_bidme_live_reserve{margin:5px 0 0 16px !important;}
+.seat .countdown.reserve_bid_countdown{width:auto;margin-left:0px;}
+/* SUBBU STYLE 4-03-2013 */
+/* seat Module */
+.seat .buy_seat_left{width:3px;height:29px;background:url(../images/seat_left.png) no-repeat left top;float:left;}
+.seat .buy_seat_right{background:url(../images/seat_right.png) no-repeat left top;width:3px;height:29px;float:left;}
+.seat .buy_seat_mid{width:88px;height:26px;background:url(../images/seat_mid.png) repeat-x left top;padding:0 5px;float:left;}
+.seat .buy_seat_mid a {color: #FFFFFF;font: bold 12px/26px arial;text-transform: uppercase;}
+.seat .buyseats_link .buyseat_button1 {margin: 0 0 0 22px;}
+.seat .action_price p.seat_info{font: bold 13px arial;color:#C7047D; text-align: center;}
+.seat .minimum_info p {text-align: left; padding:3px 0;}
+.seat .minimum_info p span.min{margin:0 0px 0 6px;}
+.seat .seaticon { background:url("../images/seat_icon.png") no-repeat; display:block; width:17px; height:16px; float:left;margin:0px 3px;}
+.seat .bidding_inner ul li a.seat_icon1{ float:left; background:url(../images/seat_icon.png) no-repeat; padding:0 0 4px 22px;}
+.seat .re_product_container .product_bidnow_seat_left{width:3px;height:29px;background:url(../images/seat_left1.png) no-repeat left top;float:left;}
+.seat .re_product_container .product_bidnow_seat_right{background:url(../images/seat_right1.png) no-repeat left top;width:3px;height:29px;float:left;}
+.seat .re_product_container .product_bidnow_seat_middle{width:88px;height:29px;background:url(../images/seat_mid1.png) repeat-x left top;padding:0 5px;float:left;}
+.seat .re_product_container .product_bidnow_seat_middle a{color: #FFFFFF;font: bold 12px/29px arial;text-transform: uppercase;width:95px;}
+.seat .buyseat_button{margin:0 0 0 54px;}
+.seat .buyseats_link{padding:10px 0;}
+.seat .buy_now_button{margin-left:53px;}
+.seat .buy_now_button .buy_now_l{margin:0;}
+.seat .seat_timer_list li { text-align: center;}
+.seat .seat_timer_list li.seat_available span, .seat .seat_timer_list li.seat_available b{font: bold 16px arial;color: #2691C0;}
+.seat .enough{font: normal 12px arial; color: #E42639;padding:0 0 5px;}
+.seat .MessageText span{color:#FF8C00;}
+.seat .enough a {color:#C7047D; text-decoration: underline;}
+.seat .seat_max{min-height: 100px;}
+.seat .seat_max .buyseats_link{padding:0 0 0px;height:auto;}
+.seat .seat_info{padding:1px 0 0;}
+.seat .seat_mid .action_bidder_name{margin: 0px 0;padding:3px 0;}
+.seat .seat_mid .countdown{padding:5px 2px 0px;}
+.seat .seat_mid .bidme_link{margin:0px;}
+.seat .seat_mid .auction_share_icon{margin:3px 0 0 0;}
+.seat .seat_res_conent h3 {color:#C7047D; font: normal 16px arial;}
+.seat .seat_product{width:46px;height:45px;background:url(../images/seat_icon1.png) no-repeat;float:left;z-index:1;margin:0px;top:-6px;}
+.seat .auction_bit_left{width:89px;}
+.seat .bidding_type{margin:10px;}
+.seat .bidding_inner ul li{ float: left; list-style-type:none;padding:0 11px;}
+.seat .account-left{background:url(../images/account_left.png) no-repeat left top; margin: 0 0 10px;}
+.seat .account-right{background:url(../images/account_right.png) no-repeat right top;}
+.seat .account-mid{background:url(../images/account_mid.png) repeat-x left top; height: 34px; margin: 0px 6px;}
+.seat .account-mid p{font-size:12px; font-weight:bold;color:#C5047D;padding:7px 0px; margin: 0px 3px;}
+.seat .account-mid p span{color: #E37C00;}
+.seat .price-container, .seat  .save-block{padding:15px 0 0;}
+.seat .re_product_container .price-middle1 {border-top: none; border-bottom:none;}
+.seat .bidding_inner ul li a.scratch_icon1{ float:left; background:url(../images/scratch_icon1.png) no-repeat; padding:0 0 4px 22px;}
+.seat .bidme_link_out_seat{ height: 28px;margin: 0 0 0 27px;padding: 0;text-align: center;width: 130px;}
+.seat .seat_max .action_price{margin:0 0 2px;}
+.seat .seat_bid_content_outer .bidding_type{margin-left:8px;margin-right:8px;width:98%;}
+.seat .seat_bid_content_outer .bidding_type_lft{background: url(../images/bidding_type_lft1.png) left top no-repeat;width:100%;height:6px;}
+.seat .seat_bid_content_outer .bidding_type_mid{background: url(../images/bidding_type_mid1.png) left top repeat-y;width:100%;height:auto;}
+.seat .seat_bid_content_outer .bidding_type_rft{background: url(../images/bidding_type_rft1.png) left top no-repeat;width:100%;height:6px;}
+.seat .seat_bid_content_outer .bidding_inner{padding-left:10px;padding-right:10px;width:97%;}
+.seat .seat_bid_content_outer .bidding_inner span{color:#000;width:100%;padding-bottom:5px}
+.seat .seat_bid_content_outer .bidding_inner ul{width:100%;}
+.seat .seat_bid_content_outer .bidding_inner ul li{padding:6px 0;width:24%;}
+.seat .seat_bid_content_outer .bidding_inner ul li a{padding-bottom:2px;}
+.seat .bidding_inner ul li a.seat_icon1{ float:left; background:url(../images/seat_icon.png) no-repeat; padding:0 0 4px 22px;}
+.seat .bidding_inner ul li a.scratch_icon1{ float:left; background:url(../images/scratch_icon1.png) no-repeat; padding:0 0 4px 22px;}
+.seat .bidding_inner ul li{  padding: 4px 0; width: 159px;}
+.seat .bidding_inner span{padding: 0 0 5px;}
+.seat .bidding_type{margin:10px 10px 0;}
+.seat .buy_now_l{background:url(../images/checkout_lft.png) no-repeat; width:3px; height: 29px; float:left;}
+.seat .buy_now_r{background:url(../images/checkout_rft.png) right top no-repeat; width:3px; height: 29px; float:left;}
+.seat .buy_now_mid{background:url(../images/checkout_mid.png) repeat-x; width:95px; height: 29px; float:left;}
+.seat .buy_now_mid a{font:bold 12px/29px arial; color:#fff;float:left; width:100%; text-align: center}
+.seat .re_product_container .product_detail_top_right td p.seat_available, .seat .re_product_container .product_detail_top_right td p.seat_available b {text-align: center; color:#C6047D; font: bold 16px arial !important;}
+.seat .re_product_container .product_detail_top_right td p.seat_available{width:100%; margin:0 0 0 0px;}
+.seat .re_confirm_seat .re_confrim_bid button{width:116px;}
+.seat .re_confirm_seat .re_cancel_bid button{width:100px;}
+.seat .re_product_container_seat .price-tl_f{background:url(../images/price_top.png) no-repeat left top; height:9px; border:0px;}
+.seat .re_product_container_seat .price-tb_f{background:url(../images/price_bottom.png) no-repeat left top;height:9px; border:0px;float:left;width:246px;}
+.seat .re_product_container_seat .price-middle{background:url(../images/price_mid.png) repeat-y left top;border:0px;float:left;}
+.seat .re_product_container_seat .price-middle1{padding:0 11px 0 5px;}
+.seat .re_product_container_seat .product_detail_top_right th, .seat  .re_product_container_seat .product_detail_top_right td{width:50%;}
+.seat .re_product_container_seat .product_detail_top_right th p, .seat  .re_product_container_seat .product_detail_top_right td p{padding:0;}
+.seat .re_product_container_seat .product_detail_top_right th p, .re_product_container_seat .product_detail_top_right td p{padding:0;}
+
+.seat .notice_nsg2{ margin: 5px 0; display: block; width: 96%;}
+.seat  #map-canvas {
+        width: 950px;
+        height: 190px
+		
+      }
+.seat .price_table{ border:1px solid #E2E1E1; border-bottom:0px;background:#E8E8E8; }
+.seat .price_table td{ border-bottom:1px solid #E2E1E1; }
+.seat .price_table  td { color:#BB006F;}
+.seat .success_bidder{border:1px solid #F2F2F2;background: url(../images/sucess_bg.png) repeat-x left top; height:24px; width:947px; margin:10px 0 0px 0;padding:4px;}
+.seat .success_bidder p {background: url(../images/tick.png) no-repeat left top; color:#77BE19; padding:5px 0 5px 30px; font:bold 12px arial;}
+.seat .lower_bidder{border:1px solid #F2F2F2;background: url(../images/sucess_bg.png) repeat-x left top; height:24px; width:947px; margin:10px 0 0px 0;padding:4px;}
+.seat .lower_bidder p {background: url(../images/wrong.png) no-repeat left top; color:#D01123; padding:5px 0 5px 30px; font:bold 12px arial;}

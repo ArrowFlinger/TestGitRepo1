@@ -1,0 +1,65 @@
+/*March-25-*/
+/* scratch module */
+
+/*scratch detail 1 */
+.scratch_module,.scratch_home{float:left;width:246px;}
+.scratch_top{float:left;width:246px;height:9px;background:url(../images/scratch_module_top.png) no-repeat left top;}
+.scratch_mid{float:left;width:226px;background:url(../images/scratch_module_mid.png) repeat-y left top; padding:0 10px; text-align: center;}
+.scratch_bot{float:left;width:246px;height:9px;background:url(../images/scratch_module_bot.png) no-repeat left top;}
+.scratch_buy_details p.credit span {float: left; text-align: right; width:120px; color:#B9B9B9; font: normal 12px arial;}
+.scratch_buy_details p.credit b {float: left; text-align: left; width:94px; color:#E37B00; font: bold 12px arial; padding: 0 0 0 5px;}
+.scratch_buy_details p.credit{padding: 0 0 5px;}
+.scratch_timer_display .timer-block{width: 178px; float: left;background: url("../images/price-sep.png") no-repeat right center;padding: 10px; text-align: center;}
+.scratch_timer_display .timer ul li {float: left; margin: 0px 0px; color:#999;text-transform: capitalize;}
+.scratch_timer_display .t-timer-lft{background: url("../images/time-left.png") no-repeat left top;width: 3px ; height: 19px; float: left;}
+.scratch_timer_display .t-timer-mid{background: url("../images/time-mid.png") repeat-x left top; float: left; height: 19px;width: 17px;}
+.scratch_timer_display .t-timer-rft{background: url("../images/time-right.png") no-repeat right top;width: 3px ; height: 19px; float: left;}
+.scratch_timer_display .t-timer-mid span{font-weight: bold; color:#fff; line-height: 18px;}
+.scratch_timer_display .countdown{margin: 0 0 0 29px;}
+.scratch_timer_display p {color:#E37B00;padding: 10px 0 0;}
+.scratch_timer_display .timer p {text-transform: capitalize;color:#BABABA;padding:0;}
+.scratch_price_left {background:url(../images/see_price_left.png) no-repeat left top;width:4px; height: 31px; float: left;}
+.scratch_price_mid {background:url(../images/see_price_mid.png) repeat-x left top;height: 31px;float: left;text-transform: capitalize;}
+.scratch_price_right {background:url(../images/see_price_right.png) no-repeat left top;width:4px; height: 31px;float: left;}
+.scratch_price_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:8px 25px; display: block;}
+.scratch_price{margin: 0 0 0 39px;}
+p.scratch_cost{color:#B9B9B9; font: normal 12px arial; padding: 20px 0 10px;}
+.scratch_ok_left {background:url(../images/scratch_buy_left.png) no-repeat left top;width:3px; height: 31px; float: left;}
+.scratch_ok_mid {background:url(../images/scratch_buy_mid.png) repeat-x left top;height: 31px;float: left;}
+.scratch_ok_right {background:url(../images/scratch_buy_right.png) no-repeat left top;width:3px; height: 31px;float: left;}
+.scratch_ok_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:8px 25px; display: block;}
+.scratch_cancel_left {background:url(../images/buy_cancel_left.png) no-repeat left top;width:3px; height: 31px; float: left;}
+.scratch_cancel_mid {background:url(../images/buy_cancel_mid.png) repeat-x left top;height: 31px;float: left;}
+.scratch_cancel_right {background:url(../images/buy_cancel_right.png) no-repeat left top;width:3px; height: 31px;float: left;}
+.scratch_cancel_mid a {color:#FEFEFF; text-transform: uppercase; font: bold 12px arial;padding:8px 25px; display: block;}
+.scratch_ok,.scratch_cancel  {float: left;}
+.scratch_cancel {margin:0 0 0 15px;}
+.scratch_ok{margin: 0 0 0 18px;}
+.scratch_mid .share p,.scratch_mid .share ul,.scratch_mid .share ul li{float: left; color:#999;}
+.scratch_mid li.twit a{background: url("../images/twitter.png") no-repeat left top;width: 16px; height: 16px;}
+.scratch_mid li.face a{background: url("../images/facebook.png") no-repeat left top;width: 16px; height: 16px;}
+.scratch_mid li.flike a{background: url("../images/flike.png") no-repeat left top;width:64px; height: 18px;}
+.scratch_mid li.google_icon a{background: url("../images/google.png") no-repeat left top;width: 16px; height: 16px;}
+.scratch_mid .share ul li a {display: block; text-indent: -9999em;}
+.scratch_mid .share ul li{margin: 0px 2px;}
+.scratch_mid .share ul{margin: 2px 0 0;}
+.scratch_mid .share{padding:20px 0 0 15px;}
+
+/*scratch detail 2 */
+.scratch_info{color:#FF8600; font: bold 16px arial;}
+.scratch_time{color:#B9B9B9; font: bold 12px arial; padding:15px 0 5px 0;}
+.scratch_buy{margin:10px 0 0 56px;}
+.scratch_cancel1{margin:10px 0 25px 61px;}
+
+/*scratch home */
+.scratch_home p {color:#B9B9B9; padding:0 0 3px;}
+.scratch_home b.price{color:#D9B213;}
+.scratch_reduction{background:#555454;padding:5px; border-top: 1px solid #5B5B5B; border-bottom: 1px dashed #636363;}
+.scratch_home{width:158px;}
+.scratch_home .scratch_price_mid a{ padding: 8px 15px;}
+.scratch_home .scratch_price{margin: 0 0 10px 17px;}
+/*.scratch_home{border: 1px solid black;}*/
+
+/* scratch icon */
+.scratch_icon{background: url("../images/scratch_icon.png") no-repeat scroll 0 0 transparent;display: block;float: left;height: 16px;margin: 0 3px;width: 16px;}
+.scratch_product {background: url("../images/scratch_product.png") no-repeat scroll 0 0 transparent;float: left;height: 45px;margin: 0;top: -6px;width: 46px;z-index: 1;}

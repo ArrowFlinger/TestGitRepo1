@@ -1,0 +1,50 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+return array
+(
+    //jagan add feb 08 on words
+       'price_range_min' => 'Minimum price range ',
+       'price_range_max' => 'Maximum price range ',
+       'price_range_increment' => 'Increment price ',
+       'increment_label' => 'Bid Increment',
+       'menu_increment_settings' => 'Bid Increment Settings',
+       'add_more_increment_label' => 'Add More Fields',
+       'update_incremant_flash' => 'Bid Increment settings updated Successfully!',
+       'add_reserve_auction' => 'Reserve auction add',
+       'edit_reserve_auction' => 'Reserve auction Edit',
+       'reserve_auction_label' => 'Reserve auction',
+       'reserve_auction_added_successfully'=> 'Reserve Auction Product Added Successfully',
+       'auction_reserve' => 'Reserve Bid Increment',
+      
+       'you_can_not_bid' => 'You dont have the bid limit for this product so you can not bid. Please contact admin ',
+       'enter_amount' => 'Please enter your bid',
+       'bid_amount' => 'Bid amount',
+       'your_balance_low' => 'Entered amount is greater than the your account balance amount.',
+       'enter_amount_is_lessthan' => 'Entered amount is less than / Equal to the current price. Please enter the correct amount.',
+       'your_bid_recorded_not_winner' => 'You have been outbid',
+       'your_bid_recorded_winner' => 'You are the High Bidder',
+       'confirm_box' => 'Confirm Bid',
+       'your_bid_label' => 'Your Max Bid',
+       'confirm_bid_me_label' => 'Confirm Bid',
+       'auction_reserve_settings' => 'Reserve Bid Settings',
+       'menu_reserve_user_settings' => 'Reserve Bid Settings',
+       'update_reserve_usersettings_flash'=>'Reserve User Settings has been Updated Successfully!',
+       'cancel_bid_label' => 'Cancel Bid',
+       'pay_amount' =>'Pay Amount',
+       
+       'price_range' => 'Price Range',
+       'howit_works' => 'How It Works',
+       'enter_amt_lable' => 'Enter more than current amount',
+       'review_cofirm' => 'Review and Confirm your bid',
+       'reserve_label' =>'Reserve',
+       'reserveemail_verify_label' =>'Email Notification mail for bidders',
+       'reserveemail_verify_content' =>'Enable / Disable mail notification for bidders',
+       'auction_reserve_won' => 'Reserve Won Products',
+       //selvam
+       'more_info'=>'More info',
+       'reserve_notifications_template' =>'Reserve Notifcation template',
+       'reserve_notifications_info' =>'Reserve notification mail template for Winner and Outbid user',
+       'your_own_product'=>"You can't bid your own product",
+       'menu_won_auctions_reserve'=>'Reserve won product',
+       'no_reserve_won_auction_at_the_moment'=>'No Reserve won products at the moment',
+);

@@ -1,0 +1,6 @@
+<div style="width:980px; margin:0 auto; text-align:center;">
+
+<h1 style="font-size:18px; font-weight:bold; margin:20px 10px; font-family:arial;"><?php echo __('404_not_found');?></h1>
+<p  style="font-size:14px;  margin:20px 10px;font-family:arial;"><?php //echo $error_message;?><?php echo __('sorry_not_found');?></p>
+<img src="<?php echo url::base();?>public/media/images/404_error_text.jpg"/>
+ </div>

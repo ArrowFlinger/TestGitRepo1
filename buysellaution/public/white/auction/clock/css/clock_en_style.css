@@ -1,0 +1,8 @@
+
+/* CLOCK AUCTION CSS START */
+
+.clock_white{background: url(../images/clock_icon1.png) left top no-repeat; /*padding:0 0 4px 22px;*/}
+.clock_white{background:url("../images/clock_icon1.png") no-repeat; display:block; width:17px; height:16px; float:left;margin: 4px 0 0 3px;}
+.clock_white_detail{width:46px;height:45px;background:url(../images/clock_icon.png) no-repeat;float:left;z-index:1;margin:0px;top:-6px;}
+
+/* CLOCK AUCTION CSS END */
